@@ -106,10 +106,6 @@ namespace VehicleMarks
             DefaultSettings();
             RefreshMap();
         }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            RefreshDb();
-        }
         private void gMap_Load(object sender, EventArgs e)
         {
             RefreshMap();
